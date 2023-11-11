@@ -9,7 +9,7 @@ type IButton = {
 };
 
 const Button = style.div<IButton>`
-font-size: ${(props) => props.fontSize};
+   font-size: ${(props) => props.fontSize};
    width: ${(props) => props.value || '30px'}
 `;
 

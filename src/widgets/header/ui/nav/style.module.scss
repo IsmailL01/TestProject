@@ -12,3 +12,9 @@ li {
 	color: gray;
 	text-decoration: none;
 }
+
+@media (max-width: 600px) {
+	.navbarItems {
+		flex-direction: column;
+	}
+}

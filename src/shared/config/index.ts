@@ -1,2 +1,3 @@
 import ArrayOfPaths from './paths';
-export { ArrayOfPaths };
+import { URL } from './api';
+export { ArrayOfPaths, URL };
